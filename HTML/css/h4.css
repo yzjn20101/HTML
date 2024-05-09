@@ -1,0 +1,22 @@
+nav{
+    background-color: gainsboro;
+    padding: 0%;
+}
+
+nav a{
+    display: inline-block;
+    color: black;
+    text-decoration: none;
+    padding: 20px 20px;
+    transition-duration: 0.3s;
+    margin-left: -5px;
+}
+nav a:hover{
+    background-color: rgb(10, 96, 255);
+    color: white;
+}
+
+nav a:active{
+    background-color: brown;
+    color: white;
+}
