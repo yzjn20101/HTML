@@ -121,3 +121,22 @@ nav a:active{
     overflow: hidden;
     padding-top: 56.25%; /* 16:9 Aspect Ratio */
 }
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background: linear-gradient(135deg, #b2ebf2, #4dd0e1); /* Softer gradient */
+    color: #333;
+}
+.video-container {
+    position: relative;
+    width: 100%;
+    max-width: 800px;
+    margin: 40px auto; /* Increase spacing above and below */
+    overflow: hidden;
+    padding-top: 56.25%; /* 16:9 Aspect Ratio */
+    border-radius: 10px; /* Smooth rounded corners */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2); /* Add shadow effect */
+    background: #fff; /* Optional: background color */
+    padding-bottom: 20px; /* Adds more space at the bottom */
+}

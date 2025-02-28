@@ -147,3 +147,10 @@ body {
     align-items: center;
     flex-direction: column;
 }
+img {
+    transition: transform 0.3s ease-in-out;
+}
+
+img:hover {
+    transform: scale(1.05); /* Slight zoom on hover */
+}
